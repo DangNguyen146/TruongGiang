@@ -27,6 +27,15 @@
     <ClCompile Include="Keo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ruoi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoUong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NuocNgot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ThucPham.h">
@@ -36,6 +45,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Keo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ruoi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoUong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NuocNgot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

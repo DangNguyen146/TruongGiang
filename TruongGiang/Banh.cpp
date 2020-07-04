@@ -2,7 +2,13 @@
 void Banh::Nhap()
 {
 	ThucPham::Nhap();
-	this->NoiCungCap = "Xuong BLUE";
+	cout << "Chon nhoi cung cap 1-Red 2-BLUE" << endl;
+	int se;
+	cin >> se;
+	if (se == 1)
+		this->NoiCungCap = "Xuong RED";
+	else
+		this->NoiCungCap = "Xuong BLUE";
 	this->GiaBan = this->GiaNhap * 1.2;
 }
 void ThucPham::Xuat()

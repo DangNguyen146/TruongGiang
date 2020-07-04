@@ -139,13 +139,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Banh.cpp" />
+    <ClCompile Include="DoUong.cpp" />
     <ClCompile Include="Keo.cpp" />
+    <ClCompile Include="NuocNgot.cpp" />
+    <ClCompile Include="Ruoi.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="ThucPham.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Banh.h" />
+    <ClInclude Include="DoUong.h" />
     <ClInclude Include="Keo.h" />
+    <ClInclude Include="NuocNgot.h" />
+    <ClInclude Include="Ruoi.h" />
     <ClInclude Include="ThucPham.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
