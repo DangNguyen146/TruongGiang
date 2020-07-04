@@ -1,9 +1,9 @@
 #include "DoUong.h"
 void DoUong::Nhap()
 {
+	cin.ignore();
 	cout << "Ma Ruoi: ";
 	getline(cin, this->MaRuoi);
-	cin.ignore();
 	cout << "Nhap Ten: ";
 	getline(cin, this->Ten);
 	cout << "Nhap Dung tich: ";

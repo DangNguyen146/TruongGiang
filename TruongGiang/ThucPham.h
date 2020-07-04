@@ -13,5 +13,6 @@ protected:
 public:
 	virtual void Nhap();
 	virtual void Xuat() = 0;
+	float GetGiaBan() { return this->GiaBan; }
 };
 

@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClCompile Include="Banh.cpp" />
     <ClCompile Include="DoUong.cpp" />
+    <ClCompile Include="GoiSanPham.cpp" />
     <ClCompile Include="Keo.cpp" />
     <ClCompile Include="NuocNgot.cpp" />
     <ClCompile Include="Ruoi.cpp" />
@@ -149,6 +150,7 @@
   <ItemGroup>
     <ClInclude Include="Banh.h" />
     <ClInclude Include="DoUong.h" />
+    <ClInclude Include="GoiSanPham.h" />
     <ClInclude Include="Keo.h" />
     <ClInclude Include="NuocNgot.h" />
     <ClInclude Include="Ruoi.h" />

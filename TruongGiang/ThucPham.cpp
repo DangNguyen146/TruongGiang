@@ -2,9 +2,9 @@
 #include<string>
 void ThucPham::Nhap()
 {
+	cin.ignore();
 	cout << "Ma Thuc Pham: ";
 	getline(cin, this->MaTHucPham);
-	cin.ignore();
 	cout << "Nhap Ten: ";
 	getline(cin, this->Ten);
 	cout << "Nhap Khoi luong: ";

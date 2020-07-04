@@ -1,7 +1,7 @@
 #include "NuocNgot.h"
 void NuocNgot::Nhap()
 {
-	cout << "Nhap 1-Co Gas 2-Khong co: ";
+	cout << "Nhap Nuoc (1-Co Gas 2-Khong co): ";
 	cin >> this->CoGas;
 	DoUong::Nhap();
 	this->NoiCungCap = "Cong ty Green";

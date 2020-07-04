@@ -1,7 +1,7 @@
 #include "Keo.h"
 void Keo::Nhap()
 {
-	cout << "Chon loai keo 1-Keo cung 2-Keo mem";
+	cout << "Chon loai keo (1-Keo cung 2-Keo mem) :";
 	cin >> this->LoaiKeo;
 	ThucPham::Nhap();
 	this->NoiCungCap = "Xuong RED";

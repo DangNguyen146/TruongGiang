@@ -36,6 +36,9 @@
     <ClCompile Include="NuocNgot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="GoiSanPham.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ThucPham.h">
@@ -54,6 +57,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="NuocNgot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GoiSanPham.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

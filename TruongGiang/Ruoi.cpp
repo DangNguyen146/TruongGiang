@@ -1,7 +1,7 @@
 #include "Ruoi.h"
 void Ruoi::Nhap()
 {
-	cout << "Chon loai ruoi 1-Loai 1  2-Loai 2: ";
+	cout << "Chon loai ruoi(1-Loai 1  2-Loai 2): ";
 	cin >> this->Loai;
 	DoUong::Nhap();
 	cout << "Nhap nong do: ";
